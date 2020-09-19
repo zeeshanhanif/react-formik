@@ -5,7 +5,7 @@ function UserForm() {
     const name = useRef();
     const age = useRef();
     const [nameError, setNameError] = useState("");
-    const [ageError, setAgeError] = useState("");
+    //const [ageError, setAgeError] = useState("");
     const handleSubmit = (e)=>{
         e.preventDefault();
         console.log("Hello submit");
